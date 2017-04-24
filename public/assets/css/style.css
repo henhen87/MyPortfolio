@@ -135,6 +135,7 @@ span.input-group-addon i {
 }*/
 
 .loading{
+	width: 25%;
 	display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
