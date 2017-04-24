@@ -1,0 +1,226 @@
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();></a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Welcome to</h1>
+            <br>
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                    <div class="service-item container">
+                            <!-- <i class="fa fa-cloud fa-stack-1x text-primary"></i> -->
+                            <div>
+                                
+                            <img style="width: 15%; height: auto" id = "Profile" class="Profile img-circle " src = "/assets/img/me.jpg" alt = "Mad Hatter"/>
+                            </div>
+                
+                        <h3>
+                            <strong><b>{{ headerName }}'s</b></strong>
+                        </h3>
+                        <h3><b>Portfolio</b></h3>
+                    </div>
+                </div>
+            <a href="#about" class="btn btn-dark btn-lg">Click to Read About Me</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2><b>{{ aboutMe }}</b></h2>
+                    <p class="lead">{{ paragraph }}</p>
+                    <p class="lead">{{ paragraphTwo }}</p>
+                    <p class="lead">{{ paragraphThree }}</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Projects</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center ">
+                    <h2>My Applications</h2>
+                    <hr class="medium bold">
+                    <div class="row portfolio-showcase swing">
+                        <div class="col-md-6">
+                            <div class="portfolio-item well">
+                                <a href="https://nameless-savannah-54599.herokuapp.com/" target="_blank" class="col-md-12 col-sm-12 col-xs-12 col-lg-12"><h4><b>Search Stream</b></h4></a>
+                       
+                                <a href="https://github.com/henhen87/search-stream" target="_blank" class="col-md-12 col-sm-12 col-xs-12 col-lg-12"><b><h4>Github Link</b></h4></a>
+                                <img style="border: solid; border-width: thin; border-style: dashed;" class="img-responsive" src="/assets/img/stream.gif"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item well" style="position: relative;">
+                                <a href="https://protected-ravine-18595.herokuapp.com/" target="_blank"  class="col-md-12 col-sm-12 col-xs-12 col-lg-12"><h4><b>CodeFlo</b></h4></a>
+                       
+                                <a href="https://github.com/henhen87/CodeFlo" target="_blank"  class="col-md-12 col-sm-12 col-xs-12 col-lg-12"><b><h4>Github Link</b></h4></a>
+                                <img style="border: solid; border-width: thin; border-style: dashed;" class=" img-responsive" src="/assets/img/codeflodemo.gif"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item well">
+                                <a href="https://obscure-brook-54217.herokuapp.com/" target="_blank" class="col-md-12 col-sm-12 col-xs-12 col-lg-12"><h4><b>New York Times Search</b></h4></a>
+                       
+                                <a href="https://github.com/henhen87/nytreact" target="_blank" class="col-md-12 col-sm-12 col-xs-12 col-lg-12"><b><h4>Github Link</b></h4></a>
+                                <img style="border: solid; border-width: thin; border-style: dashed;" class="img-portfolio img-responsive" src="/assets/img/nytreact.gif">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item well">
+                                <a href="https://immense-hamlet-44282.herokuapp.com/home/" target="_blank" class="col-md-12 col-sm-12 col-xs-12 col-lg-12"><h4><b>Game Scraper</b></h4></a>
+                       
+                                <a href="https://github.com/henhen87/MongoDB_Scraper" target="_blank" class="col-md-12 col-sm-12 col-xs-12 col-lg-12"><b><h4>Github Link</b></h4></a>
+                                <img style="border: solid; border-width: thin; border-style: dashed;" class="img-portfolio img-responsive" src="/assets/img/scraper.gif">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <button class="btn btn-info btn-lg more-projects">View More Projects</button>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <form>
+                        
+                        <div class="form-group col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+                            <label for="name" class="cols-sm-2 control-label">Your Name</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="fullName" id="name" placeholder="Enter your Name"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+                            <label for="email" class="cols-sm-2 control-label">Your Email</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                    <input type="email" class="form-control" name="email" id="fromEmail" placeholder="Enter your Email"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+                            <label for="username" class="cols-sm-2 control-label">Subject</label>
+                            <div class="cols-sm-10">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter Subject"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+                            <label for ="description"> Message</label>
+                            <div class="cols-sm-10">
+                              
+                                <textarea type="text" rows="7" class="form-control" name="message" id="textbox" placeholder="Enter Your Message"></textarea>
+                             </div>
+                                     
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="col-md-4 col-md-offset-4">
+                            <button type="submit" id="but" class="btn btn-success btn-lg">Send Message</button>
+                        </div>
+                    </form>
+              
+            </div>
+        </div>
+    </aside>
+                            
+                        
+
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDZlr1PIju7yg3kXsHDmcBJT_nptCX6Vkk&q=ANNENBERG+SPACE+FOR+PHOTOGRAPHY,Century-City+WA"></iframe>
+        <br />
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Henry Lee</strong>
+                    </h4>
+                    <p>Century City, CA</p>
+                 
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (818) 645-5939</li>
+                     
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:btnysci@yahoo.com">btnysci@yahoo.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://github.com/henhen87" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="linkedin.com/in/henry-lee-77170b78/" target="_blank"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://stackoverflow.com/users/7344314/henhen" target="_blank"><i class="fa fa-stack-overflow fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Henry Portfolio 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
