@@ -22,7 +22,7 @@ var projectLinks = [
 		project: {
 			heroku: "My Portfolio (this site)",
 			githubLink: "https://github.com/henhen87/MyPortfolio",
-			herokuLink: "https://nameless-savannah-54599.herokuapp.com/",
+			herokuLink: "https://fullstack-henry.herokuapp.com/",
 			imgSRC: "/assets/img/portfolio.gif"
 		}
 	}
