@@ -16,7 +16,7 @@ $('#but').on('click', function(event){
 
 	console.log('emailInfo', emailInfo);
 	$.post('/email', emailInfo).done(function(data){
-
+		console.log("MADE IT TO THE CALLBACK")
 		$('#name').val("");
 		$('#subject').val("");
 		$('#fromEmail').val("");
