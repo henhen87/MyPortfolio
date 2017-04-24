@@ -138,6 +138,6 @@ span.input-group-addon i {
 	display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    left: 480px;
-    top: 100px;
+    left: 37%;
+    top: -400px;
 }
