@@ -16,11 +16,11 @@ var homeData = {
 	AboutLi: "About",
 	aboutMe: "About Me",
 	paragraph: "Hello! My name is Henry and I am motivated software engineer and a full stack web developer." +
-			   " My interest and passion for programming began after graduating from the University of California Riverside with a bachelors in" +
-			   " Political Science. I have two years of C++ at Los Angeles Valley College and then enrolled in the UCLA Extension fullstack web" +
-			   " development program. This is just the very beginning of what I consider my programming career and I plan on expanding my" +
-			   " knowledge in JavaScript, C++ and various languages all through out my life.",
-	paragraphTwo: "My goal is to become a software engineer and a full stack web developer that can contribute to a great team to build robust and technologically advanced applications.",
+			   " I believe my energy and my positive attitude will be a great asset to any company. I enjoy programming so much and I think what separates me from others is, programming is not something I do just for a great salary. Programming is something that I actually enjoy and love doing. " +
+			   " When I am not playing video games or exercising, I am often coding programs and researching new tech and languages during my leisure. It is something very special to me and I will often find myself staying after work hours just to keep programming since it is so much fun, especially with a great team.",
+
+	paragraphTwo: "I have three years of programming experience with C++, JavaScript, Node, Express, MongoDB, MySQL, and React with Redux. I consider myself to be very talented at solving algorithms, and when faced with a really tough one, using resources available to much such as the internet never lets me down." + 
+				  "I am a great team player and am always willing to communicate with other team members and help them out as much as I can when needed. I also always make sure to never get lazy when it comes to writing clean, properly formatted code with best practices.",
 	paragraphThree: "Some of my hobbies are video games, music, cooking and coding.",
 	connectHeader: "Connect with Me",
 	formName: "Name:",
